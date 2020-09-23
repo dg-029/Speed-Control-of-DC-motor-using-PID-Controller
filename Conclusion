@@ -1,0 +1,7 @@
+For a closed loop feedback control system for a DC motor, PID controller was tuned to obtain desired speed from the motor. By keeping the objective that settling time ts and rise time tr should be minimum and there should be no overshoots; that is, maximum percent over shoot Mp should be zero, we estimated the values of the parameters for the components of PID control, (Kp, Ki, Kd) using the Zeigler-Nichols method. The results were satisfactory, however not as per the desired design requirements.We require optimization techinques to obtaion desired results(no overshoots).
+The merits of controlling the system using PID control are:
+The PID controllers are different from other control methods because of its simple structure, easy implementation and easy maintenance. 
+For most kinds of control systems, PID schemes produce high performance to make the system more accurate and stable.
+After identifying the quantity to be regulated, the PID controllers can be used in any industry. It is a universal and hence widely used control system.
+Advanced applications can be drawn out of PID controllers by cascading them.
+Additionally, the PID tuning, if done manually can take days, or even weeks, to reach the acceptable level of gains. The tuning methods can efficiently be employed to reach us an acceptable level of initial gains for further manual tuning. However, in industries, auto tuning and loop optimization software are used for better tuning. 
