@@ -1,0 +1,5 @@
+Under these conditions the Open-Loop step response without a PID controller was obtained as:
+Settling time, ts = 68.6029
+Rise time, tr = 38.2458
+Maximum percentage overshoot, Mp = 0 
+Steady State Error, ess = 0.0237
