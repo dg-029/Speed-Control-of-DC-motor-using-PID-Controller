@@ -1,1 +1,4 @@
 # Speed-Control-of-DC-motor-using-PID-Controller
+Abstract- DC motors have wide applications in the industry, especially in areas that require servo control, adjustable speed and constant or low-speed torque. Good controllability over its position, speed or torque with variety of control methods with precision is a big advantage. Proportional-Integral-Derivative (PID) controller uses the error between the measured and desired quantities and output a pulse width modulated voltage to obtain desired performance. 
+
+This project is an attempt to implement a speed control system for a DC Motor using the PID controller on MATLAB. To achieve this, we couple the output of motor to a control circuit which senses and rectifies the error in angular position and velocity till the desired pre-determined point. We study the Ziegler-Nicholas Method for speed control and then use some manual fine-tuning to optimise PID controller gains (Kp, Ki, Kd) for desired performance
