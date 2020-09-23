@@ -1,0 +1,11 @@
+The response of DC motor was then calculated by Ziegler-Nichols method. We selected the following set of points (𝑡a, 𝑦a) and (𝑡b, 𝑦b). The first point corresponds to output of step response at a value of 35.3% and the second point corresponds to output of step response at a value of 85.3%. By using this method, we got open loop step response values of DC motor given as follows: 
+𝑡a = 8 sec, 𝑦a = 14.52
+𝑡b = 37.7 sec, 𝑦b = 35.09 
+and dc gain 𝛽 = 41.1449
+Using Ziegler-Nichols rules we derived PID controller parameters.
+
+Kp = 0.8000
+Ki = 0.6380
+Kd = 0.2508
+
+By using the above values of K𝑝, K𝑖, and K𝑑, PID controller was designed. PID controller was tuned  keeping the objective that settling time ts and rise time tr should be minimum.
